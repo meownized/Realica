@@ -1,0 +1,128 @@
+/*@font-face {
+  font-family: Geometria;
+  src: url("..fonts/Geometria-Light.otf") format("opentype");
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans:200,300,400,500,600,700,800,900');
+
+section.parallaxBack {
+  position: relative;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: white;
+  min-width: 700px;
+  overflow-x: hidden;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*.media-body {
+  max-width: 330px;
+}*/
+
+.row {
+  margin-top: 60px;
+}
+
+.mainheader, .abovemap {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: black;
+}
+
+.abovemap {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+div .realica {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.realica p {
+  font-size: 22px;
+}
+
+.media-heading {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.h2realica {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  letter-spacing: 3px;
+}
+
+.h3ht {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+  letter-spacing: 3px;
+}s
+
+
+.mainheader {
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+svg.BtnSvg {
+  margin-top: 30px;
+  width: 120px;
+  height: auto;
+}
+
+.media-body {
+  padding-left: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  svg.BtnSvg {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row {
+    margin-top: 20px;
+  }
+
+  .abovemap {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  svg.BtnSvg {
+    margin-top: 50px;
+  }
+
+  .media,
+  .media:first-child {
+    margin-top: 40px;
+  }
+}

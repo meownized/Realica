@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta charset="utf-8">
+		<title>Realica</title>
+		<link rel="stylesheet" type="text/css" href="css/realicaParallax.css" />
+	</head>
+
+	<body style="zoom: 1;">
+		<div id="foreground">
+			<div id="info">
+        <h2>THE FASTEST WAY TO DELIVER</h2>
+				<h1>EXCITING EXPERIENCE <em></em></h1>
+			</div>
+		</div>
+
+		<div id="background">
+			<!-- <div class="star" data-parallaxify-range="600"></div> -->
+      <div class="big" data-parallaxify-range-x="150" data-parallaxify-range-y="250">
+        <div class="small1" data-parallaxify-range-x="180" data-parallaxify-range-y="100"></div>
+        <div class="small2" data-parallaxify-range-x="115" data-parallaxify-range-y="150"></div>
+        <div class="small3" data-parallaxify-range-x="100" data-parallaxify-range-y="100"></div>
+      </div>
+		</div>
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="src/jquery.parallaxify.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+    $.parallaxify({
+       // enable parallax effect for horizontal, vertical or both directions
+       horizontalParallax: true,
+       verticalParallax: true,
+
+       // enable or disable parallax effect for elements or backgrounds
+       parallaxBackgrounds: true,
+       parallaxElements: true,
+
+       // set which positioning property is to be used
+       // options include 'position' or 'transform' using css transformations
+       positionProperty: 'position',
+
+       // enable for responsive layouts
+       // (upon orientation changes or window resizing element positions are reevaluated
+       responsive: false,
+
+       // enable or disable mouse or gyroscope data as input for the plugin
+       useMouseMove: true,
+       useGyroscope: true,
+
+       // use a Low Pass Filter to smooth sensor readings (1 = no filter)
+       alphaFilter: 0.9,
+
+       // set which motion type algorithm is to be used
+       // options include 'natural', 'linear', 'gaussian', or 'performance'
+       motionType: 'natural',
+       mouseMotionType: 'gaussian',
+
+   // define which sensor input has priority over the other
+   // options are either 'mouse' or 'gyroscope'
+   inputPriority: 'mouse',
+
+       // define the delta angle (0 < motionAngle < 90)
+       // that is used to render max parallax in this direction
+       motionAngleX: 80,
+       motionAngleY: 80,
+
+       // enable of adjustment of base position (using a Low Pass Filter)
+       // (adapting to device usage while plugin is running)
+       adjustBasePosition: true,
+       // alpha for Low Pass Filter used to adjust average position
+       alphaPosition: 0.05,
+   });
+    </script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+.media:first-child {
+  margin-top: 130px;
+}
+
+div .htvideo {
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 992px) {
+  .h2realica{
+    font-size: 20px;
+  }
+
+  .realica p {
+    font-size: 14px;
+  }
+
+  .h3ht {
+    font-size: 26px;
+  }
+}

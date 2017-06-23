@@ -1,0 +1,159 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,300);*/
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,700,800');
+
+html,
+body,
+div,
+span,
+p,
+a,
+em,
+img,
+b,
+u,
+i,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-style: normal;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#foreground {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  background-size: cover;
+  -webkit-background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.star {
+  position: absolute;
+  top: 45vh;
+  left: 35vw;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.75);
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.75);
+}
+
+.big {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  width: 263px;
+  height: 265px;
+  background-image: url(../images/back1.png);
+  filter: brightness(50%);
+}
+
+.small1 {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  width: 163px;
+  height: 164px;
+  background-image: url(../images/back2.png);
+
+}
+
+.small2 {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  width: 163px;
+  height: 164px;
+  background-image: url(../images/back3.png);
+
+}
+
+.small3 {
+  position: absolute;
+  top: 80px;
+  left: -15px;
+  width: 117px;
+  height: 119px;
+  background-image: url(../images/back4.png);
+
+}
+
+#info {
+  position:absolute;
+  left:0;
+  right:0;
+  top:45%;
+  bottom:0;
+	margin:auto;
+  vertical-align: middle;
+}
+
+#info h1 {
+  font-size: 72px;
+  line-height: 36px;
+  font-weight: 200;
+  color: white;
+  padding-bottom: 1.5em;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+#info h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 1.5em;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 992px) {
+  #info h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+
+  #info h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+}
