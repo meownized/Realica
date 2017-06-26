@@ -25,6 +25,9 @@ p {
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
+  margin: 10px 0 10px;
+  color: black;
+  /*letter-spacing: 1px;*/
 }
 
 /*.media-body {
@@ -53,8 +56,12 @@ div .realica {
 }
 
 .realica p {
-  font-size: 22px;
-}
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 8px;
+  max-width: 430px;
+  }
 
 .media-heading {
   font-family: 'Work Sans', sans-serif;
@@ -101,8 +108,53 @@ a:hover {
   text-decoration: none;
 }
 
+
+
+
+
+
+a {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-image: url(../temp/btnlargeblack.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 12px;
+}
+
+.btn:hover {
+  background-image: url(../temp/btnlarge.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+a:hover {
+  color: black;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: 6px 14px;
+  font-size: 10px;
+}
+
+div .media-body .text {
+    max-width: 280px;
+  }
+
+
+
+
+
 @media screen and (max-width: 1200px) {
   svg.BtnSvg {
+    margin-top: 5px;
+  }
+
+  .btn {
+    background-size: contain;
     margin-top: 5px;
   }
 }

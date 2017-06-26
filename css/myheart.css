@@ -1,9 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400i,700i');
+
 .media:first-child {
   margin-top: 130px;
 }
 
+.media-body {
+  padding-left: 40px;
+}
+
+.media-body, .media-left, .media-right {
+  vertical-align: middle;
+  }
+
 div .htvideo {
   margin-top: 120px;
+}
+
+.realica p {
+  margin-top: 0;
+}
+
+p.author {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+a {
+  letter-spacing: 1px;
+}
+
+a:hover,
+p.author:hover {
+  color: black;
 }
 
 @media screen and (max-width: 992px) {
@@ -17,5 +48,9 @@ div .htvideo {
 
   .h3ht {
     font-size: 26px;
+  }
+
+  img {
+    width: 300px;
   }
 }

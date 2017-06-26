@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans:200,300,400,500,600,700,800,900');
+
+.wrap {
+  margin-top: 100px;
+}
+
+.btnspace {
+  margin-top: 50px;
+}
+
+a {
+  color: black;
+}
+
+.btn {
+  background-image: url(../temp/btnlarge.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.btn:hover {
+  background-image: url(../temp/btnlargeblack.svg);
+  color: white;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: 12px 60px;
+}
